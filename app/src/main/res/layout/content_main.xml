@@ -18,12 +18,33 @@ android:gravity="center" >
     android:layout_marginTop="20sp"
     android:textSize="30sp"
     android:text="" />
-<TextView
-    android:id="@+id/textZ"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20sp"
-    android:textSize="30sp"
-    android:text="" />
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/texttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:text="" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="30sp"
+        android:onClick="StartAccelerometer"
+        android:id="@+id/BtnAccelerometerStart"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textSize="30sp"
+        android:onClick="StopAccelerometer"
+        android:id="@+id/BtnAccelerometerStop"/>
 
 </LinearLayout>
